@@ -2,16 +2,16 @@
 session_start();
 
 $GLOBALS['config'] = array(
-	'mysql' => array(
-		'host'='127.0.0.1', //  This is Localhost Ip address
-		'username'='root', //This is your Mysql Username
-		'password'='', //This is your Mysql Password 
-		'db'='login', //This is Your Database Name
+		'mysql' => array(
+		'host'=>'127.0.0.1', //  This is Localhost Ip address
+		'username'=>'root', //This is your Mysql Username
+		'password'=>'', //This is your Mysql Password 
+		'db'=>'login', //This is Your Database Name
 
 		),
 	'remeber' => array(
 		'cookie_name' => 'hash',
-		'cookie_expire' =  604800 // set Time for Expire Cookies
+		'cookie_expire' =>  604800 // set Time for Expire Cookies
 		),
 	'session' => array(
 		'session_name' => 'user'
